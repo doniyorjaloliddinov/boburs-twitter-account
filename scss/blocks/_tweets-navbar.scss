@@ -1,0 +1,19 @@
+.tweets-navbar__list {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tweets-navbar__link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.tweets-navbar__link:hover {
+    font-weight: 700;
+    border-bottom: 4px solid #1DA1F2 ;
+    border-radius: 1.5px;
+}

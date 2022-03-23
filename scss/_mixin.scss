@@ -1,0 +1,9 @@
+// READY TRIANGLE
+@mixin triangle-up ($size, $color) {
+    width: 0;
+    height: 0;
+    border-top: $size solid $color;
+    border-left: $size solid transparent;
+    border-right: $size solid transparent;
+}
+

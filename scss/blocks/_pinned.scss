@@ -1,0 +1,97 @@
+.pinned__container {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.pinned__main {
+    margin-left: 45px;
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgb(83, 100, 113);
+}
+
+.pinned__main::before { 
+    width: 14px;
+    height: 17px;
+    // margin-top: -15px;
+    margin-left: -25px;
+    background-image: url("../img/pinned.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+}
+
+.pinned__post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pinned__img {
+    margin-right: 25px;
+}
+
+.last-content {
+    margin-right: 450px;
+}
+
+.pinned__name {
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgb(0, 0, 0);
+}
+
+.pinned__name--account {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+}
+
+.pinned__user-info {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.pinned__list {
+    max-width: 600px;
+    margin-top: 25px;
+    margin-left: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pinned__items-img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.pinned__main-img {
+    margin-top: 15px;
+    margin-left: 85px;
+}
+
+.blue-hover:hover {
+    filter: invert(63%) sepia(89%) saturate(2002%) hue-rotate(153deg) brightness(96%) contrast(105%);
+}
+
+.green-hover:hover {
+    filter: invert(71%) sepia(26%) saturate(7418%) hue-rotate(74deg) brightness(111%) contrast(132%);
+}
+
+.red-hover:hover {
+    filter: invert(11%) sepia(88%) saturate(7458%) hue-rotate(350deg) brightness(98%) contrast(101%);
+}
+
+.violate-hover:hover {
+    filter: invert(14%) sepia(72%) saturate(7467%) hue-rotate(268deg) brightness(90%) contrast(123%);
+}
