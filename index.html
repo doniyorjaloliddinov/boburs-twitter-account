@@ -5,14 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     
-    <form action="" id="form">
-        <input type="text" id="input">
-        <button id="button">Log in</button>
-        <p class="readyOutput"></p>
-    </form>
+    <div class="login-wrapper container text-center rounded-3">
+        <form action="" id="form">
+            <p>Verify your accaunt</p>
+            <input class="login-input" type="text" id="input" placeholder="your password">
+            <button class="login-btn login-input" id="button">Log in</button>
+            <p class="readyOutput"></p>
+        </form>
+    </div>
 
     <script src="./script/main.js"></script>
 </body>

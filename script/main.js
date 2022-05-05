@@ -27,4 +27,4 @@ elBtn.addEventListener("click", function (e) {
 
     // readyOutput.append()
 })
-elInput.style.borderColor = "black"
+elInput.style.borderColor = "black";
