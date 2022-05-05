@@ -13,7 +13,7 @@ elBtn.addEventListener("click", function (e) {
     let elInputNumber = Number(elInput.value);
 
     if (arr.includes(elInputNumber)) {
-        window.open("index.html")
+        window.open("main.html")
     }
     else if (elInputNumber = !Number(elInputNumber) || elInputNumber == " ") {
         elInput.value = "Write only Number";
